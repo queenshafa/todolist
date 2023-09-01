@@ -4,9 +4,7 @@
     box-sizing: border-box;
     color: #F1F0E8;
 }
-body {
 
-}
 .title {
     color: #EEE0C9;
     font-weight: 600;
@@ -66,10 +64,11 @@ ul li.checked::before {
     right: 0;
     top: 0;
     padding: 12px 16px 12px 16px;
+    background: #f8675c;
 }
 .close:hover {
-    background-color: #f44336;
     color: white;
+    background: #f44336;;
 }
 .header {
     background-color: #96B6C5;
@@ -91,6 +90,7 @@ input {
     float: left;
     font-size: 16px;
     background: #F1F0E8;
+    color: #7c96a3;
 }
 .addBtn {
     padding: 10px;
