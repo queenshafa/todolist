@@ -1,0 +1,23 @@
+* {
+    font-family: Poppins;
+    background-color: #ADC4CE;
+}
+body {
+
+}
+.title {
+    color: #EEE0C9;
+    font-weight: 600;
+    font-size: 64px;
+    text-align: center;
+}
+.paragraph {
+    color: #F1F0E8;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -55px;
+}
