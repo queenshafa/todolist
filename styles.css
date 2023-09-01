@@ -1,6 +1,8 @@
 * {
     font-family: Poppins;
     background-color: #ADC4CE;
+    box-sizing: border-box;
+    color: #F1F0E8;
 }
 body {
 
@@ -20,4 +22,30 @@ body {
     margin: 0;
     position: relative;
     top: -55px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #96B6C5;
+    font-size: 18px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+ul li:nth-child(odd) {
+    background: #90afbd;
+}
+ul li:hover {
+    background: #7c96a3;
+}
+ul li.checked {
+    background: #5b6e77;
+    text-decoration: line-through;
 }
